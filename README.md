@@ -4,19 +4,6 @@
 
 ### 定義
 
-<style>
-.column-left{
-  float: left;
-  width: 50%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 50%;
-  text-align: left;
-}
-</style>
-
 <div class="column-left" style="width:50%;text-align: right;float: left;">
 
 1. 集合
@@ -30,7 +17,7 @@
 9. グラフの同型
 
 </div>
-<div class="column-right">
+<div class="column-right" style="width:50%;text-align: left;float: right;">
 
 10. 集合の和, 積
 11. 次数
