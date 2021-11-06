@@ -4,8 +4,6 @@
 
 ### 定義
 
-<div class="column-left" style="width:50%;text-align: right;float: left;">
-
 1. 集合
 2. グラフ
 3. 多重グラフ
@@ -15,10 +13,6 @@
 7. 部分グラフ
 8. 写像
 9. グラフの同型
-
-</div>
-<div class="column-right" style="width:50%;text-align: left;float: right;">
-
 10. 集合の和, 積
 11. 次数
 12. 有効グラフの次数
@@ -28,8 +22,6 @@
 16. 切断点, 橋
 17. 内素な道
 18. 距離, 直径
-
-</div>
 
 ***
 
