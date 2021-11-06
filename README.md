@@ -17,7 +17,7 @@
 }
 </style>
 
-<div class="column-left">
+<div class="column-left" style="width:50%;text-align: right;float: left;">
 
 1. 集合
 2. グラフ
