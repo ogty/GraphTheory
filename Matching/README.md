@@ -7,6 +7,8 @@
  - 最大マッチング : `maximum_matching.py`
  - 2部グラフ : `twopart_matching.py`
 
+paperフォルダに2部マッチングの論文があります。
+
 ***
 
 ## マッチング問題
