@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 ```python
 G = nx.DiGraph()
 
-capacity = {(0, 1): 5, (0, 2): 8, (1, 4): 8, (2, 1): 2, (2, 3): 5, (3, 4): 6 }
+capacity = {(0, 1): 5, (0, 2): 8, (1, 4): 8, (2, 1): 2, (2, 3): 5, (3, 4): 6}
 
 for (i, j) in capacity:
     G.add_edge(i, j, capacity=capacity[i, j])
@@ -50,6 +50,6 @@ plt.show()
 
 <img src="./img/Figure_1.png">
 
-この画像に得られた最適解を記すと以下となる。
+この画像に、得られた最適解を記すと以下となる。
 
 <img src="./img/Figure_2.png">
