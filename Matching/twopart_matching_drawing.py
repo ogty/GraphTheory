@@ -30,6 +30,7 @@ with open("./data/foods.txt", "r") as f:
         line = lines[j + 4]
         score = float(line.split(': ')[1])
         c = colorlist[int(score - 1)] # Correspond to the "colorlist index"
+        print(c)
         
         G.add_node(product_id)
         G.add_node(profile_name)

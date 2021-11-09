@@ -1,11 +1,12 @@
 # 5章 : マッチング
 
-### 描画に関するPythonファイル
+### マッチングに関するPythonファイル
 
- - マッチング問題 : `problem.py`
- - 極大マッチング : `maximal_matching.py`
- - 最大マッチング : `maximum_matching.py`
- - 2部グラフ : `twopart_matching.py`
+ - マッチング問題の描画 : `problem.py`
+ - 極大マッチングの描画 : `maximal_matching.py`
+ - 最大マッチングの描画 : `maximum_matching.py`
+ - 2部グラフの描画 : `twopart_matching_drawing.py`
+ - 2部グラフの解決 : `twopart_matching_solving.py`
 
 paperフォルダに2部マッチングの論文があります。
 
