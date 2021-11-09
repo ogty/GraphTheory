@@ -8,7 +8,7 @@
  - 2部グラフの描画 : `twopart_matching_drawing.py`
  - 2部グラフの解決 : `twopart_matching_solving.py`
 
-paperフォルダに2部マッチングの論文があります。
+paperフォルダに2部マッチングの論文があります。  
 
 ***
 
