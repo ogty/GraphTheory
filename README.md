@@ -3,7 +3,6 @@
 ## 参照
 
  - [例題で学ぶグラフ理論(Amazon Link)](https://www.amazon.co.jp/dp/4627052812)
- - [Python言語による実務で使える100+の最適化問題](https://mikiokubo.github.io/opt100/)  
  - [Matching Documentation(Library)](https://matching.readthedocs.io/en/latest/index.html)
 
 ***
