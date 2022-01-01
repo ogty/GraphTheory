@@ -211,22 +211,24 @@ print(A == C)
 次に、集合Xのどの2個の要素も集合Yの異なる要素に対応するとき、つまり結婚相手がかぶらないとき、XからYへの**1対1の写像**という。ここでは集合XからAさんとBさんで1対1の写像となっている。
 
 ```python
-X = {
+# 女性視点の結婚したいリスト
+# key: 女性
+# value: 結婚したい男性
+women_ideal = {
     "A": 1,
     "B": 2,
     "C": 3,
     "D": 2,
 }
 
-Y = {1, 2, 3}
+# 男性
+men = {1, 2, 3}
 
-def func(z):
-    for i in z:
-        for k, v in X.items():
-            if v == i:
-                print(f"{i}さんと結婚したい人には{k}さんがいる")
+for man in men:
+    for woman, ideal in women_ideal.items():
+        if ideal == man:
+            print(f"{man}さんと結婚したい人には{woman}さんがいる")
 
-func(Y)
 # - Result - 
 # 1さんと結婚したい人にはAさんがいる
 # 2さんと結婚したい人にはBさんがいる
