@@ -212,7 +212,7 @@ print(A == C)
 
 ```python
 # 女性視点の結婚したいリスト
-# key: 女性
+# key  : 女性
 # value: 結婚したい男性
 women_ideal = {
     "A": 1,
