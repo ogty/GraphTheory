@@ -264,6 +264,13 @@ for man in men:
 
 # 定義10 : 集合の和, 積
 
+この定義10のプログラムでは、以下のモジュールを共通して使う。
+
+```python
+import matplotlib.pyplot as plt
+import networkx as nx
+```
+
 集合`A`と集合`B`に対して、**和集合**とは集合`A`と集合`B`のいずれかに属している要素全体からなる集合のこと。
 また**積集合**とは、集合Aと集合Bの両方に属している要素全体からなる集合のこと。
 集合`A`と集合`B`の積集合が空集合であるとき、これらは**互いに素**であるという。
@@ -291,6 +298,28 @@ print(C2) # {3, 4, 5}
 
 **`definition_src/complete_graph.py`**
 
+```python
+graph_data = {
+    1: [2, 3, 4, 5],
+    2: [1, 3, 4, 5],
+    3: [1, 2, 4, 5],
+    4: [1, 2, 3, 5],
+    5: [1, 2, 3, 4]
+}
+
+nodes = [i for i in graph_data.keys()]
+patterns = []
+for top, connect_tops in graph_data.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+G = nx.Graph()
+G.add_nodes_from(nodes)
+G.add_edges_from(patterns)
+nx.draw(G, with_labels=True)
+plt.show()
+```
+
 <img src="./images/graph_10_1.png">
 
 グラフ`G`の頂点集合`V(G)`を互いに素な部分集合`V1`, `V2`に分割し、`V1`の頂点同士、V2の頂点同士が隣接しないようにできるとき、`G`を**2部グラフ**と呼び、`V1`, `V2`を**部集合**と呼ぶ。部集合`V1`, `V2`を持つ2部グラフGにおいて`V1`の各頂点が、`V2`の全ての頂点と隣接しているとき、Gを**完全2部グラフ**と呼ぶ。また、部集合の数をnとしたとき、**n部グラフ**、**完全n部グラフ**が存在する。
@@ -299,11 +328,71 @@ print(C2) # {3, 4, 5}
 
 **`definition_src/bipartite_graph.py`**
 
+```python
+A = {
+    1: [4, 5], 
+    2: [5], 
+    3: [6]
+}
+B = {
+    4: [1, 2], 
+    5: [2], 
+    6: [3]
+}
+
+A_nodes = [i for i in A.keys()]
+B_nodes = [i for i in B.keys()]
+nodes = A_nodes + B_nodes
+
+patterns = []
+for top, connect_tops in A.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+for top, connect_tops in B.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+G = nx.Graph()
+G.add_nodes_from(nodes)
+G.add_edges_from(patterns)
+nx.draw(G, with_labels=True)
+plt.show()
+```
+
 <img src="./images/graph_10_2.png">
 
 **完全2部グラフ**
 
 **`definition_src/complete_bipartite_graph.py`**
+
+```python
+A = {
+    1: [4, 5, 6], 
+    2: [4, 5, 6], 
+    3: [4, 5, 6]
+}
+B = {
+    4: [1, 2, 3], 
+    5: [1, 2, 3], 
+    6: [1, 2, 3]
+}
+
+A_nodes = [i for i in A.keys()]
+B_nodes = [i for i in B.keys()]
+nodes = A_nodes + B_nodes
+
+patterns = []
+for top, connect_tops in A.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+G = nx.Graph()
+G.add_nodes_from(nodes)
+G.add_edges_from(patterns)
+nx.draw(G, with_labels=True)
+plt.show()
+```
 
 <img src="./images/graph_10_3.png">
 
@@ -311,11 +400,52 @@ print(C2) # {3, 4, 5}
 
 **`definition_src/path_graph.py`**
 
+```python
+graph_data = {
+    1: [2],
+    2: [3],
+    3: [4],
+    4: []
+}
+nodes = [i for i in graph_data.keys()]
+patterns = []
+for top, connect_tops in graph_data.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+G = nx.Graph()
+G.add_nodes_from(nodes)
+G.add_edges_from(patterns)
+nx.draw(G, with_labels=True)
+plt.show()
+```
+
 <img src="./images/graph_10_4.png">
 
 道グラフの最後のインデックスが最初のインデックスと隣接する時のグラフを**閉路**という。
 
 **`definition_src/cycle.py`**
+
+```python
+graph_data = {
+    1: [2],
+    2: [3],
+    3: [4],
+    4: [1]
+}
+
+nodes = [i for i in graph_data.keys()]
+patterns = []
+for top, connect_tops in graph_data.items():
+    for connect_top in connect_tops:
+        patterns.append((top, connect_top))
+
+G = nx.Graph()
+G.add_nodes_from(nodes)
+G.add_edges_from(patterns)
+nx.draw(G, with_labels=True)
+plt.show()
+```
 
 <img src="./images/graph_10_5.png">
 
