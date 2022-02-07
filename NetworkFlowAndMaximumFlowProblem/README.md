@@ -60,8 +60,8 @@ plt.show()
 
 このコードを実行すると以下の結果が得られる。
 
-<img src="./img/Figure_1.png">
+<img src="./images/Figure_1.png">
 
 この画像に、得られた最適解を記すと以下となる。
 
-<img src="./img/Figure_2.png">
+<img src="./images/Figure_2.png">
