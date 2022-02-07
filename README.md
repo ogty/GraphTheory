@@ -289,7 +289,35 @@ print(C2) # {3, 4, 5}
 それぞれの頂点は隣接しており、1つだけの頂点を持つ部集合であるといえる。
 この時のグラフは頂点数5つのクリークであるという。クリークは、完全グラフと同型な部分グラフの頂点集合のことである。
 
+**`definition_src/complete_graph.py`**
+
 <img src="./img/graph_10_1.png">
+
+グラフGの頂点集合V(G)を互いに素な部分集合V1, V2に分割し、V1の頂点同士、V2の頂点同士が隣接しないようにできるとき、Gを**2部グラフ**と呼び、V1, V2を**部集合**と呼ぶ。部集合V1, V2を持つ2部グラフGにおいてV1の各頂点が、V2の全ての頂点と隣接しているとき、Gを**完全2部グラフ**と呼ぶ。また、部集合の数をnとしたとき、**n部グラフ**、**完全n部グラフ**が存在する。
+
+**2部グラフ**
+
+**`definition_src/bipartite_graph.py`**
+
+<img src="./img/graph_10_2.png">
+
+**完全2部グラフ**
+
+**`definition_src/complete_bipartite_graph.py`**
+
+<img src="./img/graph_10_3.png">
+
+頂点集合の最後のインデックスが、どの頂点とも隣接しないときのグラフを**道グラフ**、あるいは単に道という。
+
+**`definition_src/path_graph.py`**
+
+<img src="./img/graph_10_4.png">
+
+道グラフの最後のインデックスが最初のインデックスと隣接する時のグラフを**閉路**という。
+
+**`definition_src/cycle.py`**
+
+<img src="./img/graph_10_5.png">
 
 ### 用語
 
