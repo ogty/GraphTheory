@@ -2,8 +2,8 @@
 
 ## 参照
 
- - [例題で学ぶグラフ理論(Amazon Link)](https://www.amazon.co.jp/dp/4627052812)
- - [Matching Documentation(Library)](https://matching.readthedocs.io/en/latest/index.html)
+ - [例題で学ぶグラフ理論](https://www.amazon.co.jp/dp/4627052812)
+ - [Matching](https://matching.readthedocs.io/en/latest/index.html)
 
 ***
 
@@ -333,3 +333,44 @@ print(C2) # {3, 4, 5}
  - 完全n部グラフ
  - 道
  - 閉路
+
+***
+
+# 定義11 : 次数
+
+グラフGの頂点vに接続している辺の本数を**次数**という。次数が偶数、あるいは奇数である頂点をそれぞれ**偶点**、**奇点**と呼ぶ。また、次数0の頂点を**孤立点**と呼ぶ。
+
+<img src="./img/graph_11.png" />
+
+### 用語
+
+ - 次数
+ - 偶点
+ - 奇点
+ - 孤立点
+
+***
+
+# 定義12 : 有向グラフの次数
+
+有向グラフDの点vを始点としている弧の本数をvの**出次数**という。また、頂点vを終点としている弧の本数をvの**入次数**という。
+
+<img src="./img/graph_12.png" />
+
+### 用語
+
+ - 出次数
+ - 入次数
+
+***
+
+# 定義13 : 正則グラフ
+
+全ての頂点の次数が同じrであるグラフを**正則グラフ**、あるいは**r-正則グラフ**という
+
+<img src="./img/graph_13.png" />
+
+### 用語
+
+ - 正則グラフ
+
