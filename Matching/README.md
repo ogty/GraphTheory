@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 現在12人おり、その人たちは自分の前後左右のいずれかの人から一人を選び手を繋ぐことができる。手を繋ぐ人数を最大にするには、どのようにしたら良いのだろうか。  
 この問題は3行4列で以下のように表せる。
 
-<img src="./img/Figure_1.png">
+<img src="./images/Figure_1.png">
 
 またコードは次で実装される
 
@@ -49,7 +49,7 @@ nx.draw(G, pos=pos, width=5, node_size=10, edgelist=edges, edge_color="orange")
 plt.show()
 ```
 
-<img src="./img/Figure_2.png">
+<img src="./images/Figure_2.png">
 
 さらに最大マッチングというものもあり、以下のコードで実装される。
 
@@ -62,6 +62,6 @@ nx.draw(G, pos=pos, width=5, node_size=10, edgelist=edges, edge_color="orange")
 plt.show()
 ```
 
-<img src="./img/Figure_3.png">
+<img src="./images/Figure_3.png">
 
 極大マッチングと、最大マッチングのグラフが左右反転しているだけで一致しているが、極大マッチングは10人と手を繋ぐことになることもあるが、最大マッチングは必ず12人と手を繋ぐことができる。
