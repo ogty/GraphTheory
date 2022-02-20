@@ -2,7 +2,7 @@
 
 ## 参照
 
- - [例題で学ぶグラフ理論](https://www.amazon.co.jp/dp/4627052812)
+ - [例題で学ぶグラフ理論(This is NOT an associate link)](https://www.amazon.co.jp/dp/4627052812)
  - [Matching](https://matching.readthedocs.io/en/latest/index.html)
 
 ***
