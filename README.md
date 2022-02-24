@@ -5,7 +5,7 @@
  - [例題で学ぶグラフ理論(This is NOT an associate link)](https://www.amazon.co.jp/dp/4627052812)
  - [Matching](https://matching.readthedocs.io/en/latest/index.html)
 
-***
+---
 
 ## 定義
 
@@ -28,7 +28,7 @@
 17. 内素な道
 18. 距離, 直径
 
-***
+---
 
 # 定義1 : 集合とは
 
