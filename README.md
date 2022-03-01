@@ -9,24 +9,24 @@
 
 ## 定義
 
-1. 集合
-2. グラフ
-3. 多重グラフ
-4. 順序対
-5. 有効グラフ
-6. 部分集合
-7. 部分グラフ
-8. 写像
-9. グラフの同型
-10. 集合の和, 積
-11. 次数
-12. 有効グラフの次数
-13. 正則グラフ
-14. 歩道, 道, 閉路
-15. 有向道, 有向閉路
-16. 切断点, 橋
-17. 内素な道
-18. 距離, 直径
+1. [集合](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A91--%E9%9B%86%E5%90%88%E3%81%A8%E3%81%AF)
+2. [グラフ](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A92--%E3%82%B0%E3%83%A9%E3%83%95)
+3. [多重グラフ](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A93--%E5%A4%9A%E9%87%8D%E3%82%B0%E3%83%A9%E3%83%95)
+4. [順序対](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A94--%E9%A0%86%E5%BA%8F%E5%AF%BE)
+5. [有効グラフ](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A95--%E6%9C%89%E5%90%91%E3%82%B0%E3%83%A9%E3%83%95)
+6. [部分集合](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A96--%E9%83%A8%E5%88%86%E9%9B%86%E5%90%88)
+7. [部分グラフ](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A97--%E9%83%A8%E5%88%86%E3%82%B0%E3%83%A9%E3%83%95)
+8. [写像](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A98--%E5%86%99%E5%83%8F)
+9. [グラフの同型](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A99--%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E5%90%8C%E5%9E%8B)
+10. [集合の和, 積](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A910--%E9%9B%86%E5%90%88%E3%81%AE%E5%92%8C-%E7%A9%8D)
+11. [次数](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A911--%E6%AC%A1%E6%95%B0)
+12. [有効グラフの次数](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A912--%E6%9C%89%E5%90%91%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E6%AC%A1%E6%95%B0)
+13. [正則グラフ](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A913--%E6%AD%A3%E5%89%87%E3%82%B0%E3%83%A9%E3%83%95)
+14. [歩道, 道, 閉路](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A914--%E6%AD%A9%E9%81%93-%E9%81%93-%E9%96%89%E8%B7%AF)
+15. [有向道, 有向閉路](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A915--%E6%9C%89%E5%90%91%E9%81%93-%E6%9C%89%E5%90%91%E9%96%89%E8%B7%AF)
+16. [切断点, 橋](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A916--%E5%88%87%E6%96%AD%E7%82%B9-%E6%A9%8B)
+17. [内素な道](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A917--%E5%86%85%E7%B4%A0%E3%81%AA%E9%81%93)
+18. [距離, 直径](https://github.com/ogty/graph-theory#%E5%AE%9A%E7%BE%A918--%E8%B7%9D%E9%9B%A2-%E7%9B%B4%E5%BE%84)
 
 ---
 
