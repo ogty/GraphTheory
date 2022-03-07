@@ -1,0 +1,12 @@
+graph {
+    a b c d;
+    
+    a -- a
+    a -- b
+    a -- d
+
+    b -- c
+    b -- c
+    b -- c
+    b -- d
+}
