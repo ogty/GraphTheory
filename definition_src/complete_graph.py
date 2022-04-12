@@ -23,3 +23,11 @@ G.add_edges_from(patterns)
 nx.draw(G, with_labels=True)
 plt.show()
 fig.savefig("../images/graph_10_1.png")
+
+
+# nx.complete_graphを使っても同様の結果が得られる
+# G2 = nx.complete_graph(5)
+# pos = nx.circular_layout(G2)
+# plt.subplots(figsize=(6, 6))
+# nx.draw_networkx(G2, pos, node_color="lightgray", edgecolors='k')
+# plt.show()

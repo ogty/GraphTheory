@@ -5,12 +5,12 @@ import networkx as nx
 A = {
     1: [4, 5], 
     2: [5], 
-    3: [6]
+    3: [6],
 }
 B = {
     4: [1, 2], 
     5: [2], 
-    6: [3]
+    6: [3],
 }
 
 A_nodes = [i for i in A.keys()]

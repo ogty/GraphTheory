@@ -6,7 +6,7 @@ graph_data = {
     1: [2],
     2: [3],
     3: [4],
-    4: [1]
+    4: [1],
 }
 
 nodes = [i for i in graph_data.keys()]
