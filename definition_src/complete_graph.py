@@ -7,7 +7,7 @@ graph_data = {
     2: [1, 3, 4, 5],
     3: [1, 2, 4, 5],
     4: [1, 2, 3, 5],
-    5: [1, 2, 3, 4]
+    5: [1, 2, 3, 4],
 }
 
 nodes = [i for i in graph_data.keys()]
@@ -23,7 +23,6 @@ G.add_edges_from(patterns)
 nx.draw(G, with_labels=True)
 plt.show()
 fig.savefig("../images/graph_10_1.png")
-
 
 # nx.complete_graphを使っても同様の結果が得られる
 # G2 = nx.complete_graph(5)
