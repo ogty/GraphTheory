@@ -40,6 +40,6 @@ for i, j in G.edges():
     edge_labels[i, j] = f"{G[i][j]['capacity']}"
 
 plt.figure()
-nx.draw(G, pos=pos, with_labels=True, node_size=1000)
+nx.draw(G, pos=pos, with_labels=True, node_size=1_000)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 plt.show()
